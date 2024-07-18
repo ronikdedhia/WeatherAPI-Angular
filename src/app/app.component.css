@@ -1,0 +1,67 @@
+/* Center all contents */
+.form-container, .mat-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  /* Make form inputs 100% width */
+  .mat-form-field {
+    width: 100%;
+    max-width: 400px; /* Adjust max-width as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  /* Styling for the submit button */
+  .submit-button {
+    width: 100%; /* Make button occupy full width */
+    max-width: 400px; /* Limit button width */
+    margin-top: 20px; /* Space below form fields */
+    background-color: transparent; /* Transparent background */
+    color: #333; /* Text color */
+    border: 1px solid #333; /* Solid border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px; /* Padding */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+  
+  .submit-button:hover {
+    background-color: #333; /* Dark background on hover */
+    color: white; /* White text on hover */
+  }
+  
+  /* Styling for displaying details */
+  .mat-card {
+    margin-top: 20px; /* Space above card */
+  }
+  
+  /* Optional: Adjust font and other styles as needed */
+  h2 {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .mat-card-content {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Optional: Styling for mat-label and input */
+  .mat-label {
+    color: #444;
+  }
+  
+  .mat-input-element {
+    border-bottom: 1px solid #ccc; /* Bottom border for inputs */
+  }
+  
+  .mat-hint {
+    font-size: 12px;
+    color: #888;
+  }  
